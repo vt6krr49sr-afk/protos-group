@@ -2,7 +2,6 @@ const menuToggle = document.querySelector(".menu-toggle");
 const navMenu = document.querySelector("nav ul");
 
 if (menuToggle && navMenu) {
-
   menuToggle.addEventListener("click", function (event) {
     event.stopPropagation();
 
@@ -18,21 +17,15 @@ if (menuToggle && navMenu) {
   });
 
   document.addEventListener("click", function (event) {
-    if (
-      !navMenu.contains(event.target) &&
-      !menuToggle.contains(event.target)
-    ) {
+    if (!navMenu.contains(event.target) && !menuToggle.contains(event.target)) {
       navMenu.classList.remove("show-menu");
     }
   });
-
 }
-
 
 const bookingForm = document.querySelector("#booking-form");
 
 if (bookingForm) {
-
   bookingForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
@@ -56,10 +49,8 @@ if (bookingForm) {
 
     const whatsappNumber = "2347063300548";
 
-    const whatsappURL =
-      `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
     window.open(whatsappURL, "_blank");
   });
-
 }

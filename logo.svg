@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Protos Group mark</title>
+  <desc id="desc">A geometric P symbol in navy and teal</desc>
+  <rect width="64" height="64" rx="14" fill="#0b1f33"/>
+  <path d="M18 48V16h17c8 0 13 4 13 11s-5 11-13 11h-8v10H18Zm9-18h7c3.3 0 5-1 5-3s-1.7-3-5-3h-7v6Z" fill="#fff"/>
+  <path d="M39 38h9l-8 10h-9l8-10Z" fill="#0f8b8d"/>
+</svg>
